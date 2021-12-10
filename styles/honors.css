@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(0, 104, 0);
+    color: white;
+}
+main {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+main h1{
+    text-align: center;
+}
+main ul {
+    max-width: 500px;
+    margin: auto;
+}
+li {
+    margin: 10px 0;
+}

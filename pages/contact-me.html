@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Amir Kooshky's CV</title>
+    <link rel='stylesheet' href='../styles/general.css'>
+    <link rel='stylesheet' href='../styles/contact-me.css'>
+</head>
+<body>
+    <div id='navbar'>
+        <ul>
+            <li><a href='../index.html'>Introduction</a></li>
+            <li><a href='skills.html'>List of Skills</a></li>
+            <li><a href='honors.html'>Honors and Achievements</a></li>
+            <li><a href='contact-me.html' class='selected-section'>Contact Me</a></li>
+        </ul>
+    </div>
+    <main>
+        <h1 id='contact-me'>Contact Me</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for='fname'>First Name:</label>
+                    </td>
+                    <td>
+                        <input type='text' id='fname' name='fname'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='lname'>Last Name:</label>
+                    </td>
+                    <td>
+                        <input type='text' id='lname' name='lname'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='email'>Email:</label>
+                    </td>
+                    <td>
+                        <input type='email' id='email' name='email'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='message'>Your message:</label>
+                    </td>
+                    <td>
+                        <textarea id='message' name='message'></textarea>
+                    </td>
+                </tr>
+            </table>
+            <input type='submit' onClick='submitForm()' id='button' value='Send'>
+        </form>
+    </main>
+    <footer>
+        <a href='https://github.com/kooshkya' target='_blank'>GitHub</a>
+        <a href='https://stackoverflow.com/users/15118180/amir-kooshky' target='_blank'>Stack Overflow</a>
+        <a href='http://t.me/kooshkya' target='_blank'>Telegram</a>
+        <p>Email: kooshkya@gmail.com</p>
+    </footer>
+</body>
